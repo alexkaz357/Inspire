@@ -1,0 +1,37 @@
+.quotes {
+  margin-top: 100px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #000000;
+
+  .body {
+    margin-right: 20px;
+
+    & .quote {
+      margin-bottom: 20px;
+    }
+
+    & .author {
+      font-weight: bold;
+    }
+
+    & span {
+      font-family: 'Catamaran', sans-serif;
+    }
+  }
+
+  .new-quote {
+
+    & i {
+      margin-top: 10px;
+      cursor: pointer;
+      transition-duration: 1s;
+      transition-property: transform;
+
+      &:hover {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+      }
+    }
+  }
+}

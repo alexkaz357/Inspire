@@ -1,0 +1,27 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/links.scss";
+@import "basics/buttons.scss";
+
+// Pages
+@import "./pages/home";
+
+// Components
+@import "./components/background";
+@import "./components/modal";
+@import "./components/form";
+@import "./components/quotes";
+@import "./components/greet-time-location";
+@import "./components/location";
+@import "./components/more-details";
+@import "./components/more-less-btn";
+@import "./components/days";
+@import "./components/days-count";

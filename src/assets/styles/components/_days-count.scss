@@ -1,0 +1,63 @@
+.days-count {
+  margin-top: 100px;
+  text-align: center;
+
+  .days-to-go {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000000;
+
+    &:not(:first-child) {
+      margin-top: 30px;
+    }
+  }
+
+  .connect-btn {
+    color: black;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity .5s;
+    display: inline-block;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .btns {
+    margin-top: 50px;
+
+    .btn {
+      color: black;
+      padding: 10px 15px;
+      background-color: #fff;
+      border-radius: 100px;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity .5s;
+      display: inline-block;
+
+      &:first-child {
+        margin-right: 10px;
+      }
+
+      &:not(:first-child) {
+        margin-left: 10px;
+      }
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  small {
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #000000;
+  }
+}

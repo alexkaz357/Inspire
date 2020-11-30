@@ -1,0 +1,38 @@
+.home {
+  // background-image: url(../../img/day-1.jpg);
+  // background-size: cover;
+  // background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background: rgba($color: #000000, $alpha: 0.1);
+  // }
+
+  & * {
+    z-index: 1;
+  }
+
+  .content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .up {
+    margin-top: -50vh;
+    transition: margin-top 1s;
+  }
+  
+  .down {
+    transition: margin-top 1s;
+  }
+}

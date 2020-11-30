@@ -1,0 +1,72 @@
+.form {
+  color: black;
+  padding: 30px 20px;
+
+  .form-field:not(:last-child) {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .date-field {
+    width: auto;
+  }
+
+  .header {
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .header-first {
+    margin-bottom: 10px;
+  }
+
+  .header-second {
+    margin-bottom: 30px;
+  }
+
+  .units {
+    color: rgba(0, 0, 0, 0.54);
+    letter-spacing: 0.00938em;
+    font-size: 12px;
+    text-align: start;
+    width: 300px;
+    margin: auto;
+  }
+
+  .degSwitch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .MuiSwitch-thumb {
+      z-index: 0;
+    }
+  }
+
+  .btns {
+    width: 300px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .form-field {
+    position: relative;
+  }
+
+  .required {
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    color: #f67e7e;
+    font-size: 10px;
+    font-style: italic;
+  }
+
+  .color {
+    color: royalblue;
+    transition: color .3s;
+  }
+}
