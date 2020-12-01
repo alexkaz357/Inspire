@@ -16,8 +16,7 @@ export function Location() {
 
   return (
     <div className="location">
-      <p>IN {location.regionName}, {location.country}</p>
-      {/* <p>IN {location.city}, {location.country_name}</p> */}
+      <p>IN {location.city}, {location.country_name}</p>
     </div>
   )
 }
