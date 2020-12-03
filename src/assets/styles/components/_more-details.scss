@@ -24,11 +24,11 @@
 
     .weather-card {
       min-width: 200px;
-      min-height: 180px;
+      min-height: 190px;
       text-align: center;
       background-color: rgba($color: #fff, $alpha: 0.2);
       border-radius: 5px;
-      padding: 10px 20px;
+      padding: 10px 10px;
       letter-spacing: 2px;
       transition: background-color .5s;
 
@@ -41,8 +41,8 @@
       }
 
       p {
-        margin-top: 5px;
-        font-size: 12px;
+        margin-top: 10px;
+        font-size: 10px;
       }
 
       .temperature {
