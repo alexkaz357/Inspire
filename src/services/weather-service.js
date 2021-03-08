@@ -12,7 +12,6 @@ const resolveData = res => res.data
 
 async function getWeather() {
   const cityKey = await getCityKey()
-  
   return axios.get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey[0].Key}?apikey=${API_KEY}&metric=true`)
     .then(resolveData)
 }
