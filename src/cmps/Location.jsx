@@ -8,6 +8,7 @@ export function Location() {
   useEffect(() => {
     locationService.getLocation()
       .then(location => {
+        if (location.city === 'Petaẖ Tiqwa') location.city = 'tel aviv'
         setLocation(location)
       })
   }, [])

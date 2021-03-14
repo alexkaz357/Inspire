@@ -17,8 +17,10 @@ async function getWeather() {
 }
 
 async function getCityKey() {
-  const city = await locationService.getLocation()
+  let city = await locationService.getLocation()
     .then(info => info.city)
+
+    if (city === 'Petaẖ Tiqwa') city = 'tel aviv'
 
   return await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}&q=${city}`)
     .then(resolveData)
