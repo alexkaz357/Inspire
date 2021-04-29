@@ -31,8 +31,28 @@
     margin-top: -50vh;
     transition: margin-top 1s;
   }
-  
+
   .down {
     transition: margin-top 1s;
+  }
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (max-width: 1110px) {
+  .home {
+    display: none;
+  }
+
+  .desktop-only {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-weight: bold;
+    text-align: center;
   }
 }
