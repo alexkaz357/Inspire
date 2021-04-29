@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Inspire/static/css/main.22bad9bf.chunk.css",
+    "main.js": "/Inspire/static/js/main.389e2fd3.chunk.js",
+    "main.js.map": "/Inspire/static/js/main.389e2fd3.chunk.js.map",
+    "runtime-main.js": "/Inspire/static/js/runtime-main.bd55916d.js",
+    "runtime-main.js.map": "/Inspire/static/js/runtime-main.bd55916d.js.map",
+    "static/js/2.2e6f2e45.chunk.js": "/Inspire/static/js/2.2e6f2e45.chunk.js",
+    "static/js/2.2e6f2e45.chunk.js.map": "/Inspire/static/js/2.2e6f2e45.chunk.js.map",
+    "static/js/3.e1ccdee4.chunk.js": "/Inspire/static/js/3.e1ccdee4.chunk.js",
+    "static/js/3.e1ccdee4.chunk.js.map": "/Inspire/static/js/3.e1ccdee4.chunk.js.map",
+    "index.html": "/Inspire/index.html",
+    "static/css/main.22bad9bf.chunk.css.map": "/Inspire/static/css/main.22bad9bf.chunk.css.map",
+    "static/js/2.2e6f2e45.chunk.js.LICENSE.txt": "/Inspire/static/js/2.2e6f2e45.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/Inspire/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/day-1.jpg": "/Inspire/static/media/day-1.f905905e.jpg",
+    "static/media/day-10.jpg": "/Inspire/static/media/day-10.69e277d9.jpg",
+    "static/media/day-2.jpg": "/Inspire/static/media/day-2.d78865dc.jpg",
+    "static/media/day-3.jpg": "/Inspire/static/media/day-3.05ddd86a.jpg",
+    "static/media/day-4.jpg": "/Inspire/static/media/day-4.f789c553.jpg",
+    "static/media/day-5.jpg": "/Inspire/static/media/day-5.4a8fac67.jpg",
+    "static/media/day-6.jpg": "/Inspire/static/media/day-6.1e2d33fd.jpg",
+    "static/media/day-7.jpg": "/Inspire/static/media/day-7.8908c0ec.jpg",
+    "static/media/day-8.jpg": "/Inspire/static/media/day-8.f805f2ec.jpg",
+    "static/media/day-9.jpg": "/Inspire/static/media/day-9.e3553af5.jpg",
+    "static/media/night-1.jpg": "/Inspire/static/media/night-1.2bd50a97.jpg",
+    "static/media/night-10.jpg": "/Inspire/static/media/night-10.ca752afe.jpg",
+    "static/media/night-2.jpg": "/Inspire/static/media/night-2.3b49767a.jpg",
+    "static/media/night-3.jpg": "/Inspire/static/media/night-3.bef711f7.jpg",
+    "static/media/night-4.jpg": "/Inspire/static/media/night-4.30cbbdf1.jpg",
+    "static/media/night-5.jpg": "/Inspire/static/media/night-5.ea2cc660.jpg",
+    "static/media/night-6.jpg": "/Inspire/static/media/night-6.eb79ea87.jpg",
+    "static/media/night-7.jpg": "/Inspire/static/media/night-7.28c70ed9.jpg",
+    "static/media/night-8.jpg": "/Inspire/static/media/night-8.adda68b1.jpg",
+    "static/media/night-9.jpg": "/Inspire/static/media/night-9.9533b806.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd55916d.js",
+    "static/js/2.2e6f2e45.chunk.js",
+    "static/css/main.22bad9bf.chunk.css",
+    "static/js/main.389e2fd3.chunk.js"
+  ]
+}
